@@ -1,0 +1,90 @@
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Banner styles */
+.banner {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.heading {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.name {
+  color: #6c5ce7;
+}
+
+.greeting {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Quick links styles */
+.quick-links {
+  margin-bottom: 40px;
+}
+
+.sub-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #6c5ce7;
+}
+
+.social-links a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #6c5ce7;
+}
+
+/* Logout button styles */
+.logout-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6c5ce7;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #4834d4;
+}
+
+/* Toggle dark mode styles */
+.toggle-dark {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-label {
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+  color: #6c5ce7;
+}
